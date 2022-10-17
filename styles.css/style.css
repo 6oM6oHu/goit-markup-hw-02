@@ -1,0 +1,202 @@
+/* Primary color - #757575 */
+/* Sub color - #212121 */
+/* Brand color #2196F3*/
+/* Black color #000000 */
+/* White color #FFFFFF */
+/* Primary bg color #2F303A */
+/* Maine font - Roboto 400-500-700-900  */
+/* Logo font - 'Raleway' 700 */
+/*  */
+:root {
+  --primary-color: #757575;
+  --sub-color: #212121;
+  --brand-color: #2196f3;
+  --total-black-color: #000000;
+  --total-white-color: #ffffff;
+  --bg-button-color: #f5f4fa;
+  --primary-bg-color: #2f303a;
+}
+
+/* body */
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  color: var(--primary-color);
+}
+
+/* Сброс маркировки на всех списках */
+
+.list {
+  list-style: none;
+}
+
+/* Логотип */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.head-style {
+  color: var(--total-black-color);
+}
+
+/* NAV MENU */
+
+.site-nav a {
+  color: var(--sub-color);
+}
+
+.contacts a {
+  color: var(--primary-color);
+}
+/* Стиль посилань */
+.link {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--brand-color);
+}
+
+/* HEADER  */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--total-white-color);
+  text-transform: uppercase;
+}
+
+/* HERO SECTION  */
+.hero {
+  background-color: var(--primary-bg-color);
+}
+/* Додаю стилі до кнопки "замовити послугу" */
+.order-button {
+  text-align: center;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: var(--total-white-color);
+
+  background-color: var(--brand-color);
+  border: none;
+  cursor: pointer;
+}
+
+/* Універсальний клас для h2 на сторінці */
+.section-title {
+  text-align: center;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--sub-color);
+}
+/* Універсальний клас для feature h3 на сторінці */
+
+.feature-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--sub-color);
+  text-transform: uppercase;
+}
+
+.feature-list .text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+/* TEAM  */
+
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--sub-color);
+}
+
+.team-list .text {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+}
+
+/* FOOTER  - ADRESS*/
+.footer {
+  background-color: var(--primary-bg-color);
+}
+
+.foot-style {
+  color: var(--total-white-color);
+}
+
+.address {
+  color: var(--total-white-color);
+  text-decoration: none;
+}
+
+.mail,
+.phone {
+  color: var(--primary-color);
+}
+/* Портфоліо */
+
+/* Button style  */
+
+.radio-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--sub-color);
+
+  background-color: var(--bg-button-color);
+  border: none;
+  cursor: pointer;
+}
+
+.radio-button:hover,
+.radio-button:focus {
+  color: var(--total-white-color);
+  background-color: var(--brand-color);
+}
+
+/* Projects list */
+
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--sub-color);
+}
+
+.projects a {
+  text-decoration: none;
+}
+
+.projects-text {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+}
