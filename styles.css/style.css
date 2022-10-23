@@ -122,6 +122,7 @@ body {
 .feature-title {
   font-weight: 700;
   line-height: 1.2;
+  font-size: 14px;
   color: var(--sub-color);
   text-transform: uppercase;
 }
@@ -212,6 +213,7 @@ body {
 
 .projects a {
   line-height: 1.7;
+  text-decoration: none;
 }
 
 .projects-text {
